@@ -1,1 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Dr. Ameh John Audu | Consultant Paediatrician & Neonatologist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <!-- Navigation bar -->
+    <nav>
+        <div class="logo">Dr. Ameh John Audu</div>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="practice.html">Practice</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Page heading -->
+    <section class="page-heading">
+        <h1>Research & Publications</h1>
+        <p>Advancing the science of newborn and child health</p>
+    </section>
+
+    <!-- Research focus -->
+    <section class="content-section">
+        <h2>Research Focus</h2>
+        <div class="info-card">
+            <h3>Neonatology</h3>
+        </div>
+    </section>
+
+    <!-- Publications -->
+    <section class="content-section alt-bg">
+        <h2>Publications</h2>
+
+        <!-- COPY THE BLOCK BELOW FOR EACH NEW PUBLICATION -->
+        <!--
+        <div class="publication-card">
+            <h3>Publication Title Goes Here</h3>
+            <p class="publication-meta">Journal Name · Year</p>
+            <a href="#" target="_blank" class="publication-link">View Publication →</a>
+        </div>
+        -->
+
+        <p class="placeholder-text">Publications list to be added</p>
+    </section>
+
+    <!-- Ongoing research -->
+    <section class="content-section">
+        <h2>Ongoing Research Projects</h2>
+        <p class="placeholder-text">Ongoing research projects to be added</p>
+    </section>
+        <script>
+        const navToggle = document.querySelector('.nav-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        navToggle.addEventListener('click', () => {
+            navToggle.classList.toggle('active');
+            navLinks.classList.toggle('open');
+        });
+    </script>
+
+</body>
+</html>

@@ -1,1 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Dr. Ameh John Audu | Consultant Paediatrician & Neonatologist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation bar -->
+    <nav>
+        <div class="logo">Dr. Ameh John Audu</div>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="practice.html">Practice</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Page heading -->
+    <section class="page-heading">
+        <h1>Practice</h1>
+        <p>Providing expert care for newborns and children</p>
+    </section>
+
+    <!-- Current role -->
+    <section class="content-section">
+        <h2>Current Role</h2>
+        <div class="info-card">
+            <h3>Consultant Paediatrician / Neonatologist</h3>
+            <p>Reddington Hospital, Lagos</p>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="content-section alt-bg">
+        <h2>Services Offered</h2>
+        <p class="placeholder-text">Services list to be added</p>
+    </section>
+
+    <!-- Hours & Availability -->
+    <section class="content-section">
+        <h2>Hours & Availability</h2>
+        <p class="placeholder-text">Working hours to be added</p>
+    </section>
+    <script>
+        const navToggle = document.querySelector('.nav-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        navToggle.addEventListener('click', () => {
+            navToggle.classList.toggle('active');
+            navLinks.classList.toggle('open');
+        });
+    </script>
+
+</body>
+</html>
 

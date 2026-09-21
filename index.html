@@ -1,1 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Ameh John Audu | Consultant Paediatrician & Neonatologist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <!-- Navigation bar -->
+    <nav>
+        <div class="logo">Dr. Ameh John Audu</div>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="practice.html">Practice</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+       <!-- Hero section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Dr. Ameh John Audu</h1>
+            <h2>Consultant Paediatrician / Neonatologist</h2>
+            <p class="tagline">Dedicated to giving every newborn the healthiest possible start in life.</p>
+            <p class="welcome-text">
+                Dr. Ameh John Audu is a Consultant Paediatrician and Neonatologist who cares deeply about 
+                the wellbeing of newborns and children. Passionate about improving outcomes for newborns 
+                and preemies, he is committed to advancing the standard of infant and child care across Nigeria.
+            </p>
+        </div>
+        <div class="hero-image-wrapper">
+            <div class="shape-behind"></div>
+            <img src="images/dr-auduo.jpg" alt="Dr. Ameh John Audu" class="profile-photo">
+        </div>
+    </section>
+        <script>
+        const navToggle = document.querySelector('.nav-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        navToggle.addEventListener('click', () => {
+            navToggle.classList.toggle('active');
+            navLinks.classList.toggle('open');
+        });
+    </script>
+
+</body>
+</html>

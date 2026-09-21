@@ -1,1 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Dr. Ameh John Audu | Consultant Paediatrician & Neonatologist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+     <!-- Navigation bar -->
+    <nav>
+        <div class="logo">Dr. Ameh John Audu</div>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="practice.html">Practice</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Page heading -->
+    <section class="page-heading">
+        <h1>About Dr. Audu</h1>
+        <p>A dedicated career in newborn and child health</p>
+    </section>
+
+    <!-- Education & Training -->
+    <section class="content-section">
+        <h2>Education & Training</h2>
+        <div class="info-card">
+            <h3>MBBS — Bachelor of Medicine, Bachelor of Surgery</h3>
+            <p>University of Jos</p>
+        </div>
+        <div class="info-card">
+            <h3>Fellowship — Neonatal-Perinatal Medicine</h3>
+            <p>Aga Khan University</p>
+        </div>
+        <div class="info-card">
+            <h3>Medical License</h3>
+            <p>Licensed Medical Practitioner, Nigeria</p>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="content-section alt-bg">
+        <h2>Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <span class="timeline-dot"></span>
+                <div>
+                    <h3>Consultant Paediatrician / Neonatologist</h3>
+                    <p>Reddington Hospital — Current</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <span class="timeline-dot"></span>
+                <div>
+                    <h3>Neonatologist</h3>
+                    <p>Aga Khan University</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <span class="timeline-dot"></span>
+                <div>
+                    <h3>Neonatologist</h3>
+                    <p>Nigerian Air Force</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <span class="timeline-dot"></span>
+                <div>
+                    <h3>Medical Doctor</h3>
+                    <p>Nigerian Air Force</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards -->
+    <section class="content-section">
+        <h2>Awards & Recognition</h2>
+        <p class="placeholder-text">Awards & recognitions to be added</p>
+    </section>
+        <script>
+        const navToggle = document.querySelector('.nav-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        navToggle.addEventListener('click', () => {
+            navToggle.classList.toggle('active');
+            navLinks.classList.toggle('open');
+        });
+    </script>
+
+</body>
+</html>

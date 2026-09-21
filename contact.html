@@ -1,1 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Ameh John Audu | Consultant Paediatrician & Neonatologist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+     <!-- Navigation bar -->
+    <nav>
+        <div class="logo">Dr. Ameh John Audu</div>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="practice.html">Practice</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Page heading -->
+    <section class="page-heading">
+        <h1>Contact</h1>
+        <p>Get in touch with Dr. Audu</p>
+    </section>
+
+    <!-- Contact details -->
+    <section class="content-section">
+        <div class="contact-item">
+            <span class="contact-icon">✉️</span>
+            <div>
+                <h3>Email</h3>
+                <a href="mailto:drameh09@gmail.com" class="contact-link">drameh09@gmail.com</a>
+            </div>
+        </div>
+
+        <div class="contact-item">
+            <span class="contact-icon">🔗</span>
+            <div>
+                <h3>LinkedIn</h3>
+                <a href="https://www.linkedin.com/in/john-audu-87b139143/" target="_blank" class="contact-link">linkedin.com/in/john-audu-87b139143</a>
+            </div>
+        </div>
+    </section>
+        <script>
+        const navToggle = document.querySelector('.nav-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        navToggle.addEventListener('click', () => {
+            navToggle.classList.toggle('active');
+            navLinks.classList.toggle('open');
+        });
+    </script>
+
+</body>
+</html>
